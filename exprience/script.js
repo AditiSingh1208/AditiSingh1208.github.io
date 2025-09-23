@@ -65,8 +65,8 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Jigar Sable";
-        $("#favicon").attr("href","/assets/images/favicon.png");
+        document.title = "Experience | Portfolio Aditi Singh";
+        $("#favicon").attr("href","/workspaces/AditiSingh1208.github.io/assets/images/hero.png");
     }
     else {
         document.title = "Come Back To Portfolio";
