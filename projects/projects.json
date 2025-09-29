@@ -13,7 +13,7 @@
     "name": "iPhone 15 Landing Page (GSAP)",
     "desc": "Apple iPhone 15 web experience built using React, Three.js, and GSAP! This project combines sleek animations with interactive 3D visuals.",
     "category": "basicweb",
-    "image": ,
+    "image": "assets/images/projects/iphone15.png",
     "links": {
       "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_reactjs-threejs-gsap-activity-7300918553610784768-_1B8",
       "code": "https://github.com/AditiSingh1208/apple_website"
