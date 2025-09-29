@@ -23,7 +23,7 @@
     "name": "Brainwave",
     "desc": "A sleek and dynamic website that showcases modern UI/UX principles, mobile-first design, custom animations, and even 3D models.",
     "category": "basicweb",
-    "image": ,
+    "image": "assets/images/projects/brainwave.png",
     "links": {
       "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_frontenddevelopment-reactjs-nodejs-activity-7313187505653080064-QijO",
       "code": "https://github.com/AditiSingh1208/brainwave-website"
