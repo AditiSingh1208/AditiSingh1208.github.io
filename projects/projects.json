@@ -33,7 +33,7 @@
     "name": "Book My Show Clone",
     "desc": "BookMyShow Clone is an all-in-one platform for booking movie, event, and show tickets with ease.",
     "category": "mern",
-    "image": ,
+    "image": "assets/images/projects/bookmyshow.png",
     "links": {
       "view": "",
       "code": "https://github.com/AditiSingh1208/book-my-show"
