@@ -1,41 +1,42 @@
 [
   {
-    "name": "AI - powered Virtual Assistant ",
-    "desc": "A customizable personal virtual assistant a smart web application that can perform real-time tasks and act like your very own digital companion.",
-    "category": "AI",
+    "name": "AI - powered Virtual Assistant",
+    "desc": "A customizable personal virtual assistant — a smart web application that can perform real-time tasks and act like your very own digital companion.",
+    "category": "mern",
+    "image": "/assets/images/projects/virtual_ai.png",
     "links": {
-      "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_mernstack-webdevelopment-ai-activity-7351671879394373632-uuIj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9NbzMBwIg9Myro1yx4VTVTL_Ulq0df1yQ",
+      "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_mernstack-webdevelopment-ai-activity-7351671879394373632-uuIj",
       "code": "https://github.com/AditiSingh1208/Virtual-Assistant"
     }
   },
-
   {
-    "name": "Iphone 15 Landing Page(GSAP)",
-    "desc": "Apple iPhone 15 web experience built using React, Three.js, and GSAP! This project was all about combining sleek animations with interactive 3D visuals.",
+    "name": "iPhone 15 Landing Page (GSAP)",
+    "desc": "Apple iPhone 15 web experience built using React, Three.js, and GSAP! This project combines sleek animations with interactive 3D visuals.",
+    "category": "basicweb",
+    "image": "/assets/images/projects/iphone15.png",
     "links": {
-      "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_reactjs-threejs-gsap-activity-7300918553610784768-_1B8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9NbzMBwIg9Myro1yx4VTVTL_Ulq0df1yQ",
+      "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_reactjs-threejs-gsap-activity-7300918553610784768-_1B8",
       "code": "https://github.com/AditiSingh1208/apple_website"
     }
   },
-
   {
     "name": "Brainwave",
-    "desc": "I built a sleek and dynamic website that showcases modern UI/UX principles, mobile-first design, custom animations, and even 3D models.",
-    "category": "Animation and UI/UX ",
+    "desc": "A sleek and dynamic website that showcases modern UI/UX principles, mobile-first design, custom animations, and even 3D models.",
+    "category": "basicweb",
+    "image": "/assets/images/projects/brainwave.png",
     "links": {
-      "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_frontenddevelopment-reactjs-nodejs-activity-7313187505653080064-QijO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9NbzMBwIg9Myro1yx4VTVTL_Ulq0df1yQ",
+      "view": "https://www.linkedin.com/posts/aditi-singh-12b812257_frontenddevelopment-reactjs-nodejs-activity-7313187505653080064-QijO",
       "code": "https://github.com/AditiSingh1208/brainwave-website"
     }
   },
-
   {
     "name": "Book My Show Clone",
-    "desc": "BookMyShow Xlone is an all-in-one platform for booking movie, event, and show tickets with ease.",
-    "category": "MERN Stack",
+    "desc": "BookMyShow Clone is an all-in-one platform for booking movie, event, and show tickets with ease.",
+    "category": "mern",
+    "image": "/assets/images/projects/bookmyshow.png",
     "links": {
       "view": "",
       "code": "https://github.com/AditiSingh1208/book-my-show"
     }
   }
-
 ]
