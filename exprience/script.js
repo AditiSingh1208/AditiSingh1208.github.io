@@ -73,3 +73,8 @@ function(){
         $("#favicon").attr("href","/assets/images/favhand.png");
     }
 });
+// Explicitly ENABLE right-click (context menu)
+document.addEventListener('contextmenu', function(e) {
+    // Do nothing — allow default behavior
+    // This overrides any accidental preventDefault()
+}, true);

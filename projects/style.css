@@ -156,28 +156,30 @@ header .navbar ul li a:hover{
 /* hamburger icon ends */
 
 /* work section starts */
-.work{
-  /* background: #010124; */
+.work {
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 5rem;
 }
-.work h2{
+
+.work h2 {
   color: #fff;
   padding: 1rem;
 }
-.work .heading span{
+
+.work .heading span {
   color: rgb(255, 230, 0);
 }
-.work .button-group{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1rem;
+
+.work .button-group {
+  display: flex; /* Add this to make gap work */
+  gap: 1rem;
   margin: 2rem auto;
   width: 50%;
   justify-content: center;
   align-items: center;
 }
-.work .button-group .btn{
+
+.work .button-group .btn {
   outline: none;
   padding: 1rem 2rem;
   background: transparent;
@@ -187,46 +189,50 @@ header .navbar ul li a:hover{
   cursor: pointer;
   font-weight: 500;
 }
-.work .button-group .btn:hover{
+
+.work .button-group .btn:hover,
+.work .button-group .btn.is-checked {
   background-color: #fff;
   color: #000;
 }
-.work .button-group .btn.is-checked{
-  background-color: #fff;
-  color: #000;
-}
-.work .box-container{
+
+.work .box-container {
   display: grid !important;
-  grid-template-columns: repeat(3, 1fr);
-  gap:1.5rem;
+  grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+  gap: 1.5rem;
   margin: 2rem;
 }
-.work .box-container .box{
+
+.work .box-container .box {
   min-width: 0;
   border-radius: .5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
-  overflow:hidden;
-  height:30rem;
+  overflow: hidden;
+  height: 30rem;
   background: #fff;
   border: none;
 }
-.work .box-container .box img{
+
+.work .box-container .box img {
   height: 100%;
-  width:100%;
+  width: 100%;
   object-fit: cover;
 }
-.work .box-container .box .content{
+
+.work .box-container .box .content {
   height: 100%;
-  width:100%;
+  width: 100%;
   position: absolute;
-  top:85%; left:0;
-  background:rgba(255, 255, 255, 0.9);
+  top: 85%;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag{
-  display: flex;
+
+.work .box-container .box .content .tag {
+  display: flex; /* Add this */
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -235,30 +241,35 @@ header .navbar ul li a:hover{
   padding-left: 1rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3{
+
+.work .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.work .box-container .box:hover .content{
+
+.work .box-container .box:hover .content {
   top: 25%;
 }
+
 .work .desc {
   margin: 2rem;
-  display: flex;
+  display: flex; /* Add this */
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p{
+
+.work .desc p {
   font-size: 1.5rem;
 }
-.work .desc .btns{
-  display: flex;
+
+.work .desc .btns {
+  display: flex; /* Add this */
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-.work .desc .btns .btn{
-  line-height: 0;
-  display: inline;
+
+.work .desc .btns .btn {
+  line-height: 1; /* Better than 0 */
   padding: 1.5rem 2.5rem;
   border-radius: .5rem;
   font-size: 1.5rem;
@@ -266,23 +277,25 @@ header .navbar ul li a:hover{
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.work .desc .btns .btn:hover{
+
+.work .desc .btns .btn:hover {
   background: #310ae0f5;
 }
 
-/* switches to 2 columns at 600px and below */
+/* ❌ Remove these media queries if you always want 3 columns */
+/*
 @media (max-width: 600px) { 
   .work .box-container {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 }
 
-/* switches to 1 column at 700px and below */
 @media (max-width: 700px) {
   .work .box-container {
     grid-template-columns: 1fr;
   }
 }
+*/
 
 /* back to home button */
 .backbtn{
