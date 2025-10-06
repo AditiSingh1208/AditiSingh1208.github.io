@@ -38,5 +38,16 @@
       "view": "",
       "code": "https://github.com/AditiSingh1208/book-my-show"
     }
+  },
+
+  {
+    "name": "App Store",
+    "desc": "It an E-commerce website made with using bootstrap.",
+    "category": "basicweb",
+    "image": "assets/images/projects/appstore.png",
+    "links": {
+      "view": "",
+      "code": "https://github.com/AditiSingh1208/E-commerce-website-using-Bootstrap"
+    }
   }
 ]
