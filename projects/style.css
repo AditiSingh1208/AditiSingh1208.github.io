@@ -196,13 +196,13 @@ header .navbar ul li a:hover{
   color: #000;
 }
 .work .box-container{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
   gap:1.5rem;
   margin: 2rem;
 }
 .work .box-container .box{
-  flex:1 1 30rem;
+  min-width: 0;
   border-radius: .5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
@@ -270,15 +270,17 @@ header .navbar ul li a:hover{
   background: #310ae0f5;
 }
 
-@media screen and (max-width: 450px) {
-  .work .button-group{
-    width: 100%;
+/* switches to 2 columns at 600px and below */
+@media (max-width: 600px) { 
+  .work .box-container {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
-  .work .box-container{
-    margin: 0rem;
-  }
-  .work .box-container .grid-item .box{
-    width: 95% !important;
+}
+
+/* switches to 1 column at 700px and below */
+@media (max-width: 700px) {
+  .work .box-container {
+    grid-template-columns: 1fr;
   }
 }
 
