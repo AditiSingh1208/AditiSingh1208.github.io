@@ -66,7 +66,7 @@ function showProjects(projects) {
 
     projectsContainer.innerHTML = projectsHTML;
 
-    // Vanilla tilt (if you want it active, uncomment below)
+    // Vanilla tilt
     // VanillaTilt.init(document.querySelectorAll(".tilt"), { max: 20 });
 
     // Isotope filter init
@@ -106,9 +106,9 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s0.parentNode.insertBefore(s1, s0);
 })();
 
-
-// Explicitly ENABLE right-click (context menu)
+// ✅ ✅ ✅ STRONGLY ENABLE RIGHT-CLICK (context menu)
+// This ensures no other script can block it
 document.addEventListener('contextmenu', function(e) {
-    // Do nothing — allow default behavior
-    // This overrides any accidental preventDefault()
-}, true);
+    // Allow the default context menu to appear
+    return true;
+}, true); // 'true' = use capture phase (highest priority)
